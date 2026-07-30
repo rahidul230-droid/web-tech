@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Registration Form</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+<fieldset>
+    <legend>Registration Form</legend>
+
+    <form onsubmit="return register();">
+
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" id="name"></td>
+                <td><p id="nameError" style="color:red;"></p></td>
+            </tr>
+
+            <tr>
+                <td>ID</td>
+                <td><input type="text" id="studentId"></td>
+                <td><p id="idError" style="color:red;"></p></td>
+            </tr>
+
+            <tr>
+                <td>Age</td>
+                <td><input type="number" id="age"></td>
+                <td><p id="ageError" style="color:red;"></p></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Total Registration</td>
+                <td><input type="number" id="count" value="0" readonly></td>
+            </tr>
+        </table>
+
+    </form>
+</fieldset>
+
+</body>
+</html>

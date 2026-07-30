@@ -1,0 +1,121 @@
+body{
+
+    background-color: lightgray;
+
+    font-family: Arial;
+
+}
+
+.container{
+
+    width: 850px;
+
+    margin: auto;
+
+    margin-top: 40px;
+
+    background-color: lightblue;
+
+    padding: 20px;
+
+}
+
+fieldset{
+
+    background-color: aliceblue;
+
+}
+
+legend{
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+}
+
+table{
+
+    width: 100%;
+
+}
+
+td{
+
+    padding: 8px;
+
+}
+
+label{
+
+    font-weight: bold;
+
+}
+
+
+.required{
+    color: red;
+}
+
+input, select{
+
+    width: 220px;
+
+    height: 30px;
+
+}
+
+button{
+
+    display: block;
+
+    margin: auto;
+
+    padding: 8px 25px;
+
+    background-color: blue;
+
+    color: white;
+
+    border: none;
+
+}
+
+p{
+
+    color: red;
+
+}
+
+
+h2{
+
+    text-align: center;
+
+}
+
+.studentTable{
+
+    margin-top: 20px;
+
+    border-collapse: collapse;
+
+    background-color: white;
+
+}
+
+.studentTable th{
+
+    background-color: lightsteelblue;
+
+}
+
+.studentTable th, .studentTable td{
+
+    border: 1px solid black;
+
+    padding: 8px;
+
+    text-align: center;
+
+}
